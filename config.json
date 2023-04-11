@@ -19,6 +19,12 @@
         "stylesheet": "resume/resume.css",
         "javascript": "resume/resume.js"
     }, {
+        "name": "Calendar",
+        "path": "/calendar",
+        "html": "calendar/calendar.html",
+        "stylesheet": "calendar/calendar.css",
+        "javascript": "calendar/calendar.js"
+    }, {
         "name": "Contact",
         "path": "/contact",
         "html": "contact/contact.html",
@@ -193,5 +199,12 @@
     {
         "title": "Scenic",
         "path": "/assets/resumes/Nicolas_Baror_Resume_Lighting.pdf"
-    }]
+    }],
+    "calendars": [
+        "https://calendar.google.com/calendar/ical/nicnacnicyt%40gmail.com/public/basic.ics",
+        "https://calendar.google.com/calendar/ical/bcbft26t4ou0dm7rjmhfv6ssik%40group.calendar.google.com/public/basic.ics",
+        "https://calendar.google.com/calendar/ical/1p6s5gtqc4dm6bqvjjgm7mucp0%40group.calendar.google.com/public/basic.ics",
+        "https://calendar.google.com/calendar/ical/7qh4ip40sju27lahhebtfi0ftc%40group.calendar.google.com/public/basic.ics",
+        "https://calendar.google.com/calendar/ical/e55d2bc9029bb79ad035fb10a475f91c4ada55a2ba9ab476de853a2c76d4a245%40group.calendar.google.com/public/basic.ics"
+    ]
 }
