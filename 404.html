@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Nicolas Baror Portfolio</title>
+  <!-- <link rel="icon" type="image/png" href="favicon.ico" /> -->
+  <script src="/index.js"></script>
+  <link rel="stylesheet" href="/normalize.css" />
+  <link rel="stylesheet" href="/stylesheet.css" />
+  <meta charset="UTF-8">
+  <meta name="title" content="Nicolas Baror Portfolio" />
+  <meta name="description" content="Temp" />
+</head>
+
+<body>
+  <div class="fader visible">
+    <div class="spinnerDiv">
+      <svg class="circular">
+        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="5" stroke-miterlimit="10" />
+      </svg>
+    </div>
+  </div>
+  <header>
+    <nav class="navbar">
+      <div class="navbar-logo">
+        Nicolas Baror Portfolio
+      </div>
+      <input type="checkbox" id="navbar-toggle" class="navbar-toggle">
+      <label for="navbar-toggle" class="navbar-toggle-label">
+        <span class="navbar-toggle-icon"></span>
+      </label>
+      <ul class="navbar-menu">
+        <li><a href="/" data-link>Home</a></li>
+        <li><a href="/gallery" data-link>Gallery</a></li>
+        <li class="navbar-dropdown">
+          <a>Other Works <span class="navbar-caret"></span></a>
+          <ul class="navbar-dropdown-menu">
+            <li><a href="/other-works/indiethon" data-link>Indiethon</a></li>
+          </ul>
+        </li>
+        <li><a href="/resume" data-link>Resume</a></li>
+        <li><a href="/contact" data-link>Contact</a></li>
+
+      </ul>
+    </nav>
+  </header>
+  <div class="page-container">
+    <main>
+
+    </main>
+    <footer>
+      <div class="footer-made-text">
+        This website is 100% custom. Found an issue? Open it on <a target="_blank" href="https://github.com/nicnacnic/nicnacnic.github.io">GitHub!</a>
+      </div>  
+      <div class="footer-container">
+        <div class="links">
+          <a href="/" data-link>Home</a>
+          <a href="/gallery" data-link>Gallery</a>
+          <a href="/resume" data-link>Resume</a>
+          <a href="/contact" data-link>Contact</a>
+        </div>
+      </div>
+      <div class="copyright">
+        &copy; 2023 Nicolas Baror. All rights reserved.
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

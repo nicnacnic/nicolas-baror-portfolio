@@ -1,0 +1,197 @@
+{
+    "pages": [{
+        "name": "Home",
+        "path": "",
+        "html": "home/home.html",
+        "stylesheet": "home/home.css",
+        "javascript": "home/home.js"
+    },
+    {
+        "name": "Gallery",
+        "path": "/gallery",
+        "html": "gallery/gallery.html",
+        "stylesheet": "gallery/gallery.css",
+        "javascript": "gallery/gallery.js"
+    }, {
+        "name": "Resume",
+        "path": "/resume",
+        "html": "resume/resume.html",
+        "stylesheet": "resume/resume.css",
+        "javascript": "resume/resume.js"
+    }, {
+        "name": "Contact",
+        "path": "/contact",
+        "html": "contact/contact.html",
+        "stylesheet": "contact/contact.css",
+        "javascript": "contact/contact.js"
+    }, {
+        "name": "Cabaret of Many Colors",
+        "path": "/gallery/cabaret-of-many-colors",
+        "html": "shows/Cabaret-Of-Many-Colors.html",
+        "stylesheet": "shows/common/stylesheet.css",
+        "javascript": "shows/common/index.js"
+    },{
+        "name": "Mars, Bringer of War",
+        "path": "/gallery/mars-bringer-of-war",
+        "html": "shows/Mars-Bringer-Of-War.html",
+        "stylesheet": "shows/common/stylesheet.css",
+        "javascript": "shows/common/index.js"
+    },
+    {
+        "name": "Into the Woods (2020)",
+        "path": "/gallery/into-the-woods-2020",
+        "html": "shows/Into-The-Woods-2020.html",
+        "stylesheet": "shows/common/stylesheet.css",
+        "javascript": "shows/common/index.js"
+    },
+    {
+        "name": "The Secret In The Wings",
+        "path": "/gallery/the-secret-in-the-wings",
+        "html": "shows/The-Secret-In-The-Wings.html",
+        "stylesheet": "shows/common/stylesheet.css",
+        "javascript": "shows/common/index.js"
+    },{
+        "name": "Little Shop of Horrors",
+        "path": "/gallery/little-shop-of-horrors",
+        "html": "shows/Little-Shop-Of-Horrors.html",
+        "stylesheet": "shows/common/stylesheet.css",
+        "javascript": "shows/common/index.js"
+    },{
+        "name": "Dialogues of the Carmelites",
+        "path": "/gallery/dialogues-of-the-carmelites",
+        "html": "shows/Dialogues-Of-The-Carmelites.html",
+        "stylesheet": "shows/common/stylesheet.css",
+        "javascript": "shows/common/index.js"
+    },{
+        "name": "Metamorphoses",
+        "path": "/gallery/metamorphoses",
+        "html": "shows/Metamorphoses.html",
+        "stylesheet": "shows/common/stylesheet.css",
+        "javascript": "shows/common/index.js"
+    }, {
+        "name": "Cedar Point Live Entertainment",
+        "path": "/gallery/cedar-point-live-entertainment",
+        "html": "shows/Cedar-Point-Live-Entertainment.html",
+        "stylesheet": "shows/common/stylesheet.css",
+        "javascript": "shows/common/index.js"
+    }, {
+        "name": "Mountain Language",
+        "path": "/gallery/mountain-language",
+        "html": "shows/Mountain-Language.html",
+        "stylesheet": "shows/common/stylesheet.css",
+        "javascript": "shows/common/index.js"
+    }, {
+        "name": "A Midsummer's Night Dream",
+        "path": "/gallery/a-midsummers-night-dream",
+        "html": "shows/A-Midsummers-Night-Dream.html",
+        "stylesheet": "shows/common/stylesheet.css",
+        "javascript": "shows/common/index.js"
+    }, {
+        "name": "Nostalgia Night",
+        "path": "/gallery/nostalgia-night",
+        "html": "shows/Nostalgia-Night.html",
+        "stylesheet": "shows/common/stylesheet.css",
+        "javascript": "shows/common/index.js"
+    }, {
+        "name": "The Wild Party",
+        "path": "/gallery/the-wild-party",
+        "html": "shows/The-Wild-Party.html",
+        "stylesheet": "shows/common/stylesheet.css",
+        "javascript": "shows/common/index.js"
+    },{
+        "name": "Indiethon",
+        "path": "/other-works/indiethon",
+        "html": "other-works/indiethon/indiethon.html",
+        "stylesheet": "other-works/indiethon/stylesheet.css",
+        "javascript": "other-works/indiethon/index.js"
+    }],
+    "carouselImgs": [
+        "assets/home/carousel/1.jpg",
+        "assets/home/carousel/2.jpg"
+    ],
+    "gallery": [
+        {
+            "title": "Lighting Design",
+            "content": [
+                {
+                    "name": "Cabaret of Many Colors",
+                    "image": "/assets/gallery/cabaret%20of%20many%20colors/cover.jpg",
+                    "url": "/gallery/cabaret-of-many-colors"
+                },
+                {
+                    "name": "Mars, Bringer of War",
+                    "image": "/assets/gallery/mars%20bringer%20of%20war/cover.jpg",
+                    "url": "/gallery/mars-bringer-of-war"
+                },
+                {
+                    "name": "Into the Woods (2020)",
+                    "image": "/assets/gallery/into%20the%20woods%202020/cover.jpg",
+                    "url": "/gallery/into-the-woods-2020"
+                },
+                {
+                    "name": "The Secret In The Wings",
+                    "image": "/assets/gallery/the%20secret%20in%20the%20wings/cover.jpg",
+                    "url": "/gallery/the-secret-in-the-wings"
+                },
+                {
+                    "name": "Little Shop of Horrors",
+                    "image": "/assets/gallery/little%20shop%20of%20horrors/cover.jpg",
+                    "url": "/gallery/little-shop-of-horrors"
+                }
+            ]
+        },
+        {
+            "title": "Master Electrician",
+            "content": [
+                {
+                    "name": "Dialogues of the Carmelites",
+                    "image": "/assets/gallery/dialogues%20of%20the%20carmelites/cover.jpg",
+                    "url": "/gallery/dialogues-of-the-carmelites"
+                },
+                {
+                    "name": "Metamorphoses",
+                    "image": "/assets/gallery/metamorphoses/cover.jpg",
+                    "url": "/gallery/metamorphoses"
+                },
+                {
+                    "name": "Cedar Point Live Entertainment",
+                    "image": "/assets/gallery/cedar%20point%20live%20entertainment/cover.jpg",
+                    "url": "/gallery/cedar-point-live-entertainment"
+                },
+                {
+                    "name": "Mountain Language",
+                    "image": "/assets/gallery/mountain%20language/cover.jpg",
+                    "url": "/gallery/mountain-language"
+                }
+            ]
+        },
+        {
+            "title": "Other",
+            "content": [
+                {
+                    "name": "A Midsummer's Night Dream",
+                    "image": "/assets/gallery/a%20midsummers%20night%20dream/cover.jpg",
+                    "url": "/gallery/a-midsummers-night-dream"
+                },
+                {
+                    "name": "Nostalgia Night",
+                    "image": "/assets/gallery/nostalgia%20night/cover.jpg",
+                    "url": "/gallery/nostalgia-night"
+                },
+                {
+                    "name": "The Wild Party",
+                    "image": "/assets/gallery/the%20wild%20party/cover.jpg",
+                    "url": "/gallery/the-wild-party"
+                }
+            ]
+        }
+    ],
+    "resumes": [{
+        "title": "Lighting",
+        "path": "/assets/resumes/Nicolas_Baror_Resume_Lighting.pdf"
+    },
+    {
+        "title": "Scenic",
+        "path": "/assets/resumes/Nicolas_Baror_Resume_Lighting.pdf"
+    }]
+}

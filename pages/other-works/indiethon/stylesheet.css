@@ -1,0 +1,198 @@
+main {
+    padding: 0 40px;
+}
+
+header h1 {
+    position: relative;
+    text-align: center;
+    font-size: 72px;
+    margin: 60px;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.text-section {
+    width: 100%;
+    max-width: 600px;
+}
+
+.production-info-section {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 18px;
+}
+
+.role-text {
+    font-size: 20px;
+}
+
+.info-text {
+    margin-bottom: 5px;
+}
+
+.into-text-spacer {
+    width: 100%;
+    height: 20px;
+}
+
+.production-info-section h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.document-section {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.document-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.document-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.photo-section-container {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.photo-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    flex-grow: 0;
+    gap: 16px;
+    width: 48.65%;
+}
+
+.photo-section img {
+    object-fit: contain;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.button-text {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.button-container {
+    width: 100%;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    width: 170px;
+    height: 34px;
+    padding: 3px 16px;
+    padding-right: 24px;
+    background-color: #4268f6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 34px;
+    transition: background-color 0.2s ease;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+.button-arrow {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='50' viewBox='0 0 7.41 12'%3E%3Cpath d='M10,6,8.59,7.41,13.17,12,8.59,16.59,10,18l6-6Z' transform='translate(-8.59 -6)' fill='%23fff'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 22px center;
+    transition: background-position 0.6s ease, background-color 0.2s ease;
+}
+
+.button:hover {
+    background-color: #565b8f;
+}
+
+.button-arrow:hover {
+    background-position: right 12px center;
+}
+
+.video-embed-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.video-embed-container video {
+    width: 100%    !important;
+    height: auto   !important;
+}
+
+.document-container iframe {
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+.portrait-pdf {
+    width: 600px;
+    height: 747px;
+}
+
+.landscape-pdf {
+    width: 600px;
+    height: 360px;
+}
+
+.arch-d-pdf {
+    width: 600px;
+    height: 394px;
+}
+
+.google-sheet {
+    width: 600px;
+    height: 400px;
+}
+
+.indiethon-logo {
+    width: 600px;
+}
+
+.document-container .photo {
+    width: 600px;
+}
+
+.document-container .photo-text {
+    width: 600px;
+    height: 100%;
+    text-align: center;
+    overflow-wrap: break-word;
+}
