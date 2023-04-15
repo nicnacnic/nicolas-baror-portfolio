@@ -16,7 +16,6 @@ const pathToRegex = path => new RegExp("^" + path.replace(/\//g, "\\/").replace(
 
 const router = async () => {
 
-
     const potentialMatches = routes.map(route => {
         return {
             route: route,
@@ -44,6 +43,17 @@ const router = async () => {
     let link;
     let script;
 
+    let jsPromise = new Promise(async (jsResolve) => {
+        if (!match.route.javascript) return jsResolve();
+        script = document.createElement('script');
+        script.setAttribute('src', `/pages/${match.route.javascript}`);
+        script.setAttribute('import', '')
+        script.onload = () => jsResolve();
+        head.appendChild(script);
+    })
+
+    await Promise.all([fade, jsPromise])
+
     let cssPromise = new Promise(async (cssResolve) => {
         if (!match.route.stylesheet) return cssResolve();
         link = document.createElement('link');
@@ -54,21 +64,14 @@ const router = async () => {
         head.appendChild(link);
     })
 
-    let jsPromise = new Promise(async (jsResolve) => {
-        if (!match.route.javascript) return jsResolve();
-        script = document.createElement('script');
-        script.setAttribute('src', `/pages/${match.route.javascript}`);
-        script.setAttribute('import', '')
-        script.onload = () => jsResolve();
-        head.appendChild(script);
-    })
-
-    await Promise.all([fade, cssPromise, jsPromise])
+    await Promise.all([cssPromise])
+    
     document.querySelectorAll('[route]').forEach(x => x.remove());
     main.innerHTML = text;
     if (link) link.setAttribute('route', '')
     if (script) script.setAttribute('route', '')
     document.querySelector('.page-container').scrollTo(0, 0);
+    document.querySelector('main').scrollTo(0, 0);
     document.querySelector('.fader').classList.remove('visible');
     try { load(config) } catch { }
     setTimeout(() => { try { visible(config) } catch { } }, 1000);
