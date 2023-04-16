@@ -61,7 +61,7 @@ h5 {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background-color: #303030;
+    background-color: #262626;
     transition-property: opacity;
     transition-duration: 1s;
     pointer-events: none;
@@ -76,8 +76,8 @@ h5 {
     overflow: hidden;
 }
 
-.navbar {
-    background-color: #303030;
+.navbar-container {
+    background-color: #262626;
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -86,7 +86,7 @@ h5 {
     width: calc(100% - 80px);
     height: 56px;
     top: 0;
-    z-index: 1;
+    z-index: 100;
 }
 
 .navbar-logo {
@@ -102,14 +102,7 @@ h5 {
     padding: 0;
     display: flex;
     flex-direction: row;
-}
-
-.navbar-menu li {
-    margin-left: 30px;
-}
-
-.navbar-menu li:first-child {
-    margin-left: 0;
+    gap: 20px;
 }
 
 .navbar-menu li a {
@@ -161,9 +154,98 @@ h5 {
     border-left: 5px solid transparent;
 }
 
+.navbar-toggle-label {
+    cursor: pointer;
+    float: right;
+    display: none;
+}
+
+.navbar-toggle-icon {
+    background: white;
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 24px;
+
+}
+
+.navbar-toggle-icon::before,
+.navbar-toggle-icon::after {
+    background: white;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+.navbar-toggle-icon::before {
+    top: 5px;
+}
+
+.navbar-toggle-icon::after {
+    top: -5px;
+}
+
+.navbar-toggle {
+    display: none;
+}
+
+.navbar-page-shadow {
+    visibility: hidden;
+    position: absolute;
+    top: 56px;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    opacity: 0;
+    z-index: 1;
+    transition-duration: 0.5s;
+}
+
+
+/* Toggle menu icon */
+.navbar-toggle:checked~.navbar {
+    right: 0;
+    transition: right 0.5s ease-out;
+}
+
+.navbar-toggle:checked~.navbar-page-shadow {
+    background-color: black;
+    visibility: visible;
+    pointer-events: all;
+    opacity: 0.5;
+    transition-duration: 0.5s;
+    z-index: 50;
+}
+
+
+/* .navbar-toggle:checked~nav {
+    width: 100vw;
+    max-height: 100%;
+    border-top: 2px solid lightgray;
+}
+
+.navbar-toggle:checked~.navbar-toggle .navbar-toggle-label {
+    background: transparent;
+}
+
+.navbar-toggle:checked~.navbar-toggle .navbar-toggle-label::before {
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+.navbar-toggle:checked~.navbar-toggle .navbar-toggle-label::after {
+    transform: rotate(45deg);
+    top: 0;
+} */
+
+
 /* Mobile styling */
-@media (max-width: 768px) {
-    .navbar {
+/* @media (max-width: 768px) {
+    .navbar-container {
         flex-wrap: wrap;
     }
 
@@ -192,7 +274,7 @@ h5 {
     .navbar-menu li:first-child {
         margin-top: 20px;
     }
-}
+} */
 
 .page-container {
     position: absolute;
@@ -277,7 +359,7 @@ h5 {
 
 /* Footer */
 footer {
-    background-color: #303030;
+    background-color: #262626;
     display: inline-block;
     color: white;
     font-size: 14px;
@@ -332,22 +414,23 @@ footer a:hover {
     h1 {
         font-size: 36px;
     }
-    
+
     h2 {
         font-size: 28px;
     }
-    
+
     h3 {
         font-size: 22px;
     }
-    
+
     h4 {
         font-size: 20px;
     }
-    
+
     h5 {
         font-size: 16px;
     }
+
     p {
         font-size: 16px;
     }
@@ -360,4 +443,40 @@ footer a:hover {
         gap: 3px;
         padding: 5px 0;
     }
+
+    .navbar-container {
+        flex-direction: row;
+        padding: 0 16px;
+        width: calc(100% - 32px);
+    }
+
+    .navbar-toggle-label {
+        display: block;
+    }
+
+    .navbar {
+        width: 200px;
+        height: 100vh;
+        position: absolute;
+        top: 56px;
+        right: -200px;
+        background-color: #262626;
+        overflow: hidden;
+        transition: right 0.5s ease-in;
+        border-top: 1px solid #3a3a3a;
+        z-index: 100;
+    }
+
+    .navbar-menu {
+        flex-direction: column;
+        flex-grow: 1;
+        gap: 10px;
+        padding: 10px 16px;
+    }
+    .navbar-menu a {
+        display: block;
+        width: 100%;
+    }
+
+    .navbar-menu a:hover {}
 }

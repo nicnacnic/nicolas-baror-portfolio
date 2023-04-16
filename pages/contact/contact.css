@@ -5,57 +5,20 @@ header h1 {
     margin: 60px;
 }
 
-.resume-container {
+.contact-container {
+    max-width: 1200px;
     width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-grow: 1;
-    flex-wrap: 1;
-    gap: 50px;
-    justify-content: center;
-    overflow: hidden;
-    flex-wrap: wrap;
+    margin: 0 auto;
 }
 
-.resume-section-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100%;
-    max-width: 600px;
-    align-items: center;
+.spacer {
+    height: 30px;
 }
 
-.resume-section-container embed {
-    width: 100%;
-    height: 747px;
-}
-
-.resume-section-container h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-weight: 500;
-    margin-top: 0;
-}
-
-.button {
-    display: inline-block;
-    width: 170px;
-    height: 40px;
-    padding: 8px 30px;
-    background-color: #4268f6;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 22px;
-    line-height: 40px;
-    transition: background-color 0.2s ease;
-    text-align: center;
-    margin-top: 16px;
-}
-
-.button:hover {
-    background-color: #565b8f;
+/* Mobile Layout */
+@media screen and (max-width: 800px) {
+    header h1 {
+        font-size: 46px;
+        margin: 30px 0;
+    }
 }

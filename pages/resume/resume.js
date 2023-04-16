@@ -9,7 +9,6 @@ async function load(config) {
             let header = document.createElement('h2');
             header.innerHTML = config.resumes[i].title;
 
-
             let embed = document.createElement('embed');
             embed.src = `${config.resumes[i].path}#toolbar=0&navpanes=0&scrollbar=0&zoom=70`;
 

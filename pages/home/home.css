@@ -12,10 +12,11 @@ main {
     display: block;
     scroll-snap-type: y mandatory;
     scroll-snap-stop: always;
-    overflow-y: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
     height: calc(100vh - 56px);
+    max-height:100vh;
+    overflow-y:scroll;
 }
 
 main::-webkit-scrollbar {
@@ -87,7 +88,7 @@ main section {
     position: absolute;
     top: 84%;
     left: 47%;
-    z-index: 10;
+    z-index: 1;
     transform: rotate(135deg) scale(1.5);
     animation: arrow 2.5s infinite;
     animation-timing-function: ease-in-out;
@@ -222,6 +223,7 @@ main section {
 }
 
 .about-button-container .button-arrow {
+    display: inline-block;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='50' viewBox='0 0 7.41 12'%3E%3Cpath d='M10,6,8.59,7.41,13.17,12,8.59,16.59,10,18l6-6Z' transform='translate(-8.59 -6)' fill='%23fff'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: right 26px center;
@@ -261,7 +263,7 @@ main section {
     border-radius: 10px;
     padding: 14px;
     width: 200px;
-    height: 180px;
+    height: 220px;
 }
 
 .services-div h4 {
@@ -277,10 +279,15 @@ main section {
 .services-footer {
     margin-top: 20px;
     font-style: italic;
+    display: inline-block;
 }
 
 footer {
     margin-top: 0;
+}
+
+.about-button-container .button-no-arrow {
+    display: none;
 }
 
 /* Mobile */
@@ -288,8 +295,9 @@ footer {
 
     main {
         margin: 0;
+        scroll-snap-type: none;
     }
-    
+
     .carousel-text-content h1 {
         font-size: 3rem;
     }
@@ -299,8 +307,7 @@ footer {
     }
 
     .about-section {
-        height: 100%;
-        padding-bottom: 200px;
+        margin-top: 25px;
     }
 
     .about-text {
@@ -324,14 +331,24 @@ footer {
         line-height: 30px;
     }
 
+    .about-button-container .button-arrow {
+        display: none;
+    }
+
+    .about-button-container .button-no-arrow {
+        display: inline-block;
+    }
+
     .services-section {
-        width: calc(100% - 40px);
+        width: calc(100vw - 40px);
         height: 100%;
         padding: 0 20px;
+        flex-direction: row;
+        margin-top: 360px;
     }
 
     .services-div {
-        height: 154px;
+        height: 190px;
     }
 
     .services-div ul {
@@ -340,6 +357,9 @@ footer {
 
     .services-footer {
         font-size: 16px;
+        margin: 20px 0;
+        text-align: center;
+        height: 76px;
     }
 }
 

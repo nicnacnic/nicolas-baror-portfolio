@@ -30,6 +30,8 @@ const router = async () => {
     let head = document.querySelector('head');
     let main = document.querySelector('main');
 
+    document.querySelector('#navbar-toggle').checked = false
+
     let fade = new Promise((resolve) => {
         document.querySelector('.fader').classList.add('visible');
         setTimeout(() => resolve(), 1000)

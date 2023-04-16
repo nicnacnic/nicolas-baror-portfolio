@@ -22,7 +22,7 @@
     </div>
   </div>
   <header>
-    <nav class="navbar">
+    <div class="navbar-container">
       <div class="navbar-logo">
         Nicolas Baror Portfolio
       </div>
@@ -30,21 +30,23 @@
       <label for="navbar-toggle" class="navbar-toggle-label">
         <span class="navbar-toggle-icon"></span>
       </label>
-      <ul class="navbar-menu">
-        <li><a href="/" data-link>Home</a></li>
-        <li><a href="/gallery" data-link>Gallery</a></li>
-        <li class="navbar-dropdown">
-          <a>Other Works <span class="navbar-caret"></span></a>
-          <ul class="navbar-dropdown-menu">
-            <li><a href="/other-works/indiethon" data-link>Indiethon</a></li>
-          </ul>
-        </li>
-        <li><a href="/calendar" data-link>Calendar</a></li>
-        <li><a href="/resume" data-link>Resume</a></li>
-        <li><a href="/contact" data-link>Contact</a></li>
-
-      </ul>
-    </nav>
+      <div class="navbar-page-shadow" onClick="document.querySelector('#navbar-toggle').checked = false"></div>
+      <nav class="navbar">
+        <ul class="navbar-menu">
+          <li><a href="/" data-link>Home</a></li>
+          <li><a href="/gallery" data-link>Gallery</a></li>
+          <li class="navbar-dropdown">
+            <a>Other Works <span class="navbar-caret"></span></a>
+            <ul class="navbar-dropdown-menu">
+              <li><a href="/other-works/indiethon" data-link>Indiethon</a></li>
+            </ul>
+          </li>
+          <li><a href="/calendar" data-link>Calendar</a></li>
+          <li><a href="/resume" data-link>Resume</a></li>
+          <li><a href="/contact" data-link>Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <div class="page-container">
     <main>
@@ -52,8 +54,9 @@
     </main>
     <footer>
       <div class="footer-made-text">
-        This website is 100% custom. Found an issue? Open it on <a target="_blank" href="https://github.com/nicnacnic/nicnacnic.github.io">GitHub!</a>
-      </div>  
+        This website is 100% custom. Found an issue? Open it on <a target="_blank"
+          href="https://github.com/nicnacnic/nicnacnic.github.io">GitHub!</a>
+      </div>
       <div class="footer-container">
         <div class="links">
           <a href="/" data-link>Home</a>
@@ -72,4 +75,5 @@
 <style>
 
 </style>
+
 </html>
