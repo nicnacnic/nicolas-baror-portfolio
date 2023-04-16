@@ -31,6 +31,7 @@ const router = async () => {
     let main = document.querySelector('main');
 
     document.querySelector('#navbar-toggle').checked = false
+    document.title = `${match.route.name} - Nicolas Baror Portfolio`
 
     let fade = new Promise((resolve) => {
         document.querySelector('.fader').classList.add('visible');
