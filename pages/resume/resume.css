@@ -31,6 +31,8 @@ header h1 {
 .resume-section-container embed {
     width: 100%;
     height: 747px;
+    border: 2px solid gray;
+    border-radius: 20px;
 }
 
 .resume-section-container h2 {

@@ -9,12 +9,13 @@ footer {
 }
 
 main {
+    display: block;
     scroll-snap-type: y mandatory;
     scroll-snap-stop: always;
     overflow-y: scroll;
-    height: 100vh;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    height: calc(100vh - 56px);
 }
 
 main::-webkit-scrollbar {
@@ -63,7 +64,7 @@ main section {
 .carousel-text-content {
     text-align: center;
     color: #ffffff;
-    text-shadow: 0px 20px 25px rgba(0, 0, 0, 1),0px -20px 25px rgba(0, 0, 0, 1),-20px 0px 25px rgba(0, 0, 0, 1),20px 0px 25px rgba(0, 0, 0, 1);
+    text-shadow: 0px 20px 25px rgba(0, 0, 0, 1), 0px -20px 25px rgba(0, 0, 0, 1), -20px 0px 25px rgba(0, 0, 0, 1), 20px 0px 25px rgba(0, 0, 0, 1);
     margin-bottom: 90px;
 }
 
@@ -79,10 +80,8 @@ main section {
     font-size: 3rem;
     font-weight: 400;
     margin-top: 10px;
-    text-shadow: 0px 20px 25px rgba(0, 0, 0, 1),0px -20px 25px rgba(0, 0, 0, 1),-20px 0px 25px rgba(0, 0, 0, 1),20px 0px 25px rgba(0, 0, 0, 1), 0px 20px 25px rgba(0, 0, 0, 1),0px -20px 25px rgba(0, 0, 0, 1),-20px 0px 25px rgba(0, 0, 0, 1),20px 0px 25px rgba(0, 0, 0, 1), 0px 20px 25px rgba(0, 0, 0, 1),0px -20px 25px rgba(0, 0, 0, 1),-20px 0px 25px rgba(0, 0, 0, 1),20px 0px 25px rgba(0, 0, 0, 1);
+    text-shadow: 0px 20px 25px rgba(0, 0, 0, 1), 0px -20px 25px rgba(0, 0, 0, 1), -20px 0px 25px rgba(0, 0, 0, 1), 20px 0px 25px rgba(0, 0, 0, 1), 0px 20px 25px rgba(0, 0, 0, 1), 0px -20px 25px rgba(0, 0, 0, 1), -20px 0px 25px rgba(0, 0, 0, 1), 20px 0px 25px rgba(0, 0, 0, 1), 0px 20px 25px rgba(0, 0, 0, 1), 0px -20px 25px rgba(0, 0, 0, 1), -20px 0px 25px rgba(0, 0, 0, 1), 20px 0px 25px rgba(0, 0, 0, 1);
 }
-
-
 
 .carousel-arrow-container {
     position: absolute;
@@ -170,8 +169,8 @@ main section {
 }
 
 .about-image {
-    width: 30%;
-    height: 82%;
+    width: 100%;
+    max-width: 375px;
     padding: 0 10px;
 }
 
@@ -179,6 +178,7 @@ main section {
     width: 100%;
     height: 100%;
     object-fit: contain;
+    border-radius: 10px;
 }
 
 .about-text {
@@ -187,18 +187,14 @@ main section {
     align-items: center;
     flex-direction: column;
     width: 60%;
-    height: 82%;
-    text-align: center;
     padding: 0 40px;
 }
 
 .about-text h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 6px;
 }
 
 .about-text p {
-    font-size: 18px;
     line-height: 1.5;
     margin-bottom: 30px;
 }
@@ -209,7 +205,7 @@ main section {
     align-self: start;
     gap: 20px;
     width: 100%;
-    height: 18%;
+    flex-wrap: wrap;
 }
 
 .about-button-container a {
@@ -257,15 +253,15 @@ main section {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
 }
 
 .services-div {
     border: 2px solid grey;
     border-radius: 10px;
-    padding: 10px;
+    padding: 14px;
     width: 200px;
-    height: 150px;
+    height: 180px;
 }
 
 .services-div h4 {
@@ -282,3 +278,80 @@ main section {
     margin-top: 20px;
     font-style: italic;
 }
+
+footer {
+    margin-top: 0;
+}
+
+/* Mobile */
+@media screen and (max-width: 800px) {
+
+    main {
+        margin: 0;
+    }
+    
+    .carousel-text-content h1 {
+        font-size: 3rem;
+    }
+
+    .carousel-text-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-section {
+        height: 100%;
+        padding-bottom: 200px;
+    }
+
+    .about-text {
+        padding: 0;
+        width: 90%;
+    }
+
+    .about-image {
+        width: 65%;
+    }
+
+    .about-button-container {
+        gap: 10px;
+        padding: 20px 10px;
+    }
+
+    .about-button-container a {
+        height: 30px;
+        font-size: 16px;
+        padding: 4px 10px;
+        line-height: 30px;
+    }
+
+    .services-section {
+        width: calc(100% - 40px);
+        height: 100%;
+        padding: 0 20px;
+    }
+
+    .services-div {
+        height: 154px;
+    }
+
+    .services-div ul {
+        font-size: 16px;
+    }
+
+    .services-footer {
+        font-size: 16px;
+    }
+}
+
+/* .about-button-container a {
+    display: inline-block;
+    height: 40px;
+    padding: 8px 30px;
+    background-color: #4268f6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 22px;
+    line-height: 40px;
+    transition: background-color 0.2s ease;
+} */

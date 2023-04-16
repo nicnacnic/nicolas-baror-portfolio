@@ -1,12 +1,8 @@
-main {
-    padding: 0 40px;
-}
-
 header h1 {
     position: relative;
     text-align: center;
     font-size: 72px;
-    margin: 60px;
+    margin: 60px 0;
 }
 
 .info-section {
@@ -178,4 +174,48 @@ header h1 {
 .google-sheet {
     width: 600px;
     height: 400px;
+}
+
+.document-screen-warning {
+    display: none;
+}
+
+/* Mobile Layout */
+@media screen and (max-width: 800px) {
+
+    header h1 {
+        font-size: 46px;
+        margin: 30px 0 4px 0;
+    }
+
+    .document-section {
+        width: calc(100vw - 40px);
+    }
+    .document-section-container {
+        width: calc(100vw - 40px);
+    }
+
+    .photo-column {
+        width: 100%
+    }
+
+    .info-text {
+        font-size: 16px;
+    }
+
+    .button-text {
+        font-size: 16px;
+    }
+
+    .document-screen-warning {
+        display: block;
+        font-size: 14px;
+        font-style: italic;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+
+    .info-section {
+        gap: 10px;
+    }
 }

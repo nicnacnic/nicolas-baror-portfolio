@@ -27,7 +27,7 @@ header h1 {
 
 .gallery-section-container h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-weight: 500;
     margin-top: 0;
 }
@@ -36,6 +36,7 @@ header h1 {
     display: block;
     position: relative;
     margin-bottom: 16px;
+    width: 100%;
 }
 
 .gallery-image img {
@@ -75,4 +76,18 @@ header h1 {
     color: white;
     pointer-events: none;
     padding: 0 20px;
+}
+
+/* Mobile Layout */
+@media screen and (max-width: 800px) {
+    header h1 {
+        font-size: 46px;
+        margin: 30px 0;
+    }
+
+    .gallery-section-container {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
 }

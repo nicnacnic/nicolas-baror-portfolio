@@ -21,6 +21,7 @@ body {
     background-color: #f5f5f5;
     overflow-y: hidden;
     overflow: visible;
+    line-height: 1.5;
 }
 
 h1,
@@ -30,6 +31,7 @@ h4,
 h5 {
     font-family: "Urbanist-Variable", sans-serif;
     font-weight: 900;
+    line-height: 1.38;
 }
 
 h1 {
@@ -45,7 +47,7 @@ h3 {
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 h5 {
@@ -280,21 +282,13 @@ footer {
     color: white;
     font-size: 14px;
     width: 100%;
-    height: 56px;
+    min-height: 56px;
     max-height: 56px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
-}
-
-.logo {
-    margin-right: 40px;
-}
-
-.logo img {
-    height: 30px;
-    margin-top: 10px;
+    gap: 50px;
 }
 
 .links {
@@ -318,51 +312,52 @@ footer a:hover {
     margin: 0;
 }
 
-.footer-made-text {
-    margin-right: 20px;
-}
-
 .footer-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-right: 20px;
 }
 
-.footer-container>* {
-    margin: 5px;
+.footer-container a {
+    margin: 0 10px;
 }
 
-.footer-container>.links {
-    margin-right: 50px;
-}
-
-.footer-container>.links>* {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-@media (max-width: 600px) {
-    .footer-container {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+/* Mobile Layout */
+@media screen and (max-width: 800px) {
+    main {
+        margin: 0 20px;
     }
 
-    .footer-container>.links {
-        margin-right: 0;
+    h1 {
+        font-size: 36px;
     }
-
-    .footer-container>.links>* {
-        margin: 5px;
+    
+    h2 {
+        font-size: 28px;
     }
-
-    .logo {
-        margin-bottom: 10px;
+    
+    h3 {
+        font-size: 22px;
+    }
+    
+    h4 {
+        font-size: 20px;
+    }
+    
+    h5 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 16px;
     }
 
     footer {
-        height: 80px;
+        font-size: 10px;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        height: 100%;
+        gap: 3px;
+        padding: 5px 0;
     }
 }
