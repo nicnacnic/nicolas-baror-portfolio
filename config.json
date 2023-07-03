@@ -31,6 +31,18 @@
         "stylesheet": "contact/contact.css",
         "javascript": "contact/contact.js"
     }, {
+        "name": "Little Shop of Horrors",
+        "path": "/gallery/little-shop-of-horrors-ltsf",
+        "html": "shows/Little-Shop-LTSF.html",
+        "stylesheet": "shows/common/stylesheet.css",
+        "javascript": "shows/common/index.js"
+    }, {
+        "name": "Cinderella",
+        "path": "/gallery/cinderella",
+        "html": "shows/Cinderella-SLCT.html",
+        "stylesheet": "shows/common/stylesheet.css",
+        "javascript": "shows/common/index.js"
+    }, {
         "name": "Cabaret of Many Colors",
         "path": "/gallery/cabaret-of-many-colors",
         "html": "shows/Cabaret-Of-Many-Colors.html",
@@ -44,7 +56,7 @@
         "javascript": "shows/common/index.js"
     },
     {
-        "name": "Into the Woods (2020)",
+        "name": "Into the Woods",
         "path": "/gallery/into-the-woods-2020",
         "html": "shows/Into-The-Woods-2020.html",
         "stylesheet": "shows/common/stylesheet.css",
@@ -124,6 +136,11 @@
             "title": "Lighting Design",
             "content": [
                 {
+                    "name": "Cinderella",
+                    "image": "/assets/gallery/Cabaret%20of%20Many%20Colors/cover.jpg",
+                    "url": "/gallery/cinderella"
+                },
+                {
                     "name": "Cabaret of Many Colors",
                     "image": "/assets/gallery/Cabaret%20of%20Many%20Colors/cover.jpg",
                     "url": "/gallery/cabaret-of-many-colors"
@@ -153,6 +170,11 @@
         {
             "title": "Master Electrician",
             "content": [
+                {
+                    "name": "Little Shop of Horrors",
+                    "image": "/assets/gallery/Little Shop LTSF/DSC_0181.jpeg",
+                    "url": "/gallery/little-shop-of-horrors-ltsf"
+                },
                 {
                     "name": "Dialogues of the Carmelites",
                     "image": "/assets/gallery/Dialogues%20of%20the%20Carmelites/cover.jpg",

@@ -68,7 +68,7 @@ const router = async () => {
     })
 
     await Promise.all([cssPromise])
-    
+
     document.querySelectorAll('[route]').forEach(x => x.remove());
     main.innerHTML = text;
     if (link) link.setAttribute('route', '')
@@ -76,7 +76,9 @@ const router = async () => {
     document.querySelector('.page-container').scrollTo(0, 0);
     document.querySelector('main').scrollTo(0, 0);
     document.querySelector('.fader').classList.remove('visible');
-    try { load(config) } catch { }
+    try {
+        await load(config)
+    } catch { }
     setTimeout(() => { try { visible(config) } catch { } }, 1000);
     loading = false;
 }
