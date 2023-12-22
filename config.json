@@ -31,6 +31,12 @@
         "stylesheet": "contact/contact.css",
         "javascript": "contact/contact.js"
     }, {
+        "name": "Natasha, Pierre and The Great Comet of 1812",
+        "path": "/gallery/natasha-pierre-and-the-great-comet-of-1812",
+        "html": "shows/Great-Comet-of-1812.html",
+        "stylesheet": "shows/common/stylesheet.css",
+        "javascript": "shows/common/index.js"
+    }, {
         "name": "Little Shop of Horrors",
         "path": "/gallery/little-shop-of-horrors-ltsf",
         "html": "shows/Little-Shop-LTSF.html",
@@ -200,6 +206,11 @@
         {
             "title": "Other",
             "content": [
+                {
+                    "name": "Natasha, Pierre and The Great Comet of 1812",
+                    "image": "/assets/gallery/Natasha%20Pierre%20and%20The%20Great%20Comet%20of%201812/DSC_0058.JPG",
+                    "url": "/gallery/natasha-pierre-and-the-great-comet-of-1812"
+                },
                 {
                     "name": "A Midsummer's Night Dream",
                     "image": "/assets/gallery/A%20Midsummers%20Night%20Dream/cover.jpg",
