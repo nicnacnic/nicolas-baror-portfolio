@@ -69,3 +69,8 @@ header h1 {
         margin: 30px 0;
     }
 }
+
+.reference-container {
+    text-align: center;
+    margin-bottom: 20px;
+}

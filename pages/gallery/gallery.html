@@ -3,5 +3,27 @@
 </header>
 
 <section class="gallery-container">
-    
+    <div class="gallery-controls-container">
+        <div class="dropdown filter-group">
+            <select class="gallery-filter-select" name="gallery-filter-select" onChange="sortGallery()"> 
+                <option selected="selected" value="all">All Roles</option> 
+                <option value="Design (Lighting)">Lighting Design</option> 
+                <option value="Programmer (Lighting)">Lighting Programmer</option> 
+                <option value="Technical (Lighting)">Electrician</option>
+                <option value="General Tech">General Tech</option> 
+                <option value="Other">Other</option> 
+            </select>
+        </div>
+        <div class="dropdown sort-dropdown">
+            <select class="gallery-sort-select" name="gallery-sort-select" onChange="sortGallery()"> 
+                <option selected="selected" value="date-ascending">Date (Newest)</option> 
+                <option value="date-descending">Date (Oldest)</option> 
+                <option value="show-ascending">Show (A &gt; Z)</option> 
+                <option value="show-descending">Show (Z &lt; A)</option> 
+            </select>
+        </div>
+    </div>
+    <div class="gallery-pane-container">
+
+    </div>
 </section>

@@ -1,135 +1,165 @@
 {
-    "pages": [{
-        "name": "Home",
-        "path": "",
-        "html": "home/home.html",
-        "stylesheet": "home/home.css",
-        "javascript": "home/home.js"
-    },
-    {
-        "name": "Gallery",
-        "path": "/gallery",
-        "html": "gallery/gallery.html",
-        "stylesheet": "gallery/gallery.css",
-        "javascript": "gallery/gallery.js"
-    }, {
-        "name": "Resume",
-        "path": "/resume",
-        "html": "resume/resume.html",
-        "stylesheet": "resume/resume.css",
-        "javascript": "resume/resume.js"
-    }, {
-        "name": "Calendar",
-        "path": "/calendar",
-        "html": "calendar/calendar.html",
-        "stylesheet": "calendar/calendar.css",
-        "javascript": "calendar/calendar.js"
-    }, {
-        "name": "Contact",
-        "path": "/contact",
-        "html": "contact/contact.html",
-        "stylesheet": "contact/contact.css",
-        "javascript": "contact/contact.js"
-    }, {
-        "name": "Natasha, Pierre and The Great Comet of 1812",
-        "path": "/gallery/natasha-pierre-and-the-great-comet-of-1812",
-        "html": "shows/Great-Comet-of-1812.html",
-        "stylesheet": "shows/common/stylesheet.css",
-        "javascript": "shows/common/index.js"
-    }, {
-        "name": "Little Shop of Horrors",
-        "path": "/gallery/little-shop-of-horrors-ltsf",
-        "html": "shows/Little-Shop-LTSF.html",
-        "stylesheet": "shows/common/stylesheet.css",
-        "javascript": "shows/common/index.js"
-    }, {
-        "name": "Cinderella",
-        "path": "/gallery/cinderella",
-        "html": "shows/Cinderella-SLCT.html",
-        "stylesheet": "shows/common/stylesheet.css",
-        "javascript": "shows/common/index.js"
-    }, {
-        "name": "Cabaret of Many Colors",
-        "path": "/gallery/cabaret-of-many-colors",
-        "html": "shows/Cabaret-Of-Many-Colors.html",
-        "stylesheet": "shows/common/stylesheet.css",
-        "javascript": "shows/common/index.js"
-    },{
-        "name": "Mars, Bringer of War",
-        "path": "/gallery/mars-bringer-of-war",
-        "html": "shows/Mars-Bringer-Of-War.html",
-        "stylesheet": "shows/common/stylesheet.css",
-        "javascript": "shows/common/index.js"
-    },
-    {
-        "name": "Into the Woods",
-        "path": "/gallery/into-the-woods-2020",
-        "html": "shows/Into-The-Woods-2020.html",
-        "stylesheet": "shows/common/stylesheet.css",
-        "javascript": "shows/common/index.js"
-    },
-    {
-        "name": "The Secret In The Wings",
-        "path": "/gallery/the-secret-in-the-wings",
-        "html": "shows/The-Secret-In-The-Wings.html",
-        "stylesheet": "shows/common/stylesheet.css",
-        "javascript": "shows/common/index.js"
-    },{
-        "name": "Little Shop of Horrors",
-        "path": "/gallery/little-shop-of-horrors",
-        "html": "shows/Little-Shop-Of-Horrors.html",
-        "stylesheet": "shows/common/stylesheet.css",
-        "javascript": "shows/common/index.js"
-    },{
-        "name": "Dialogues of the Carmelites",
-        "path": "/gallery/dialogues-of-the-carmelites",
-        "html": "shows/Dialogues-Of-The-Carmelites.html",
-        "stylesheet": "shows/common/stylesheet.css",
-        "javascript": "shows/common/index.js"
-    },{
-        "name": "Metamorphoses",
-        "path": "/gallery/metamorphoses",
-        "html": "shows/Metamorphoses.html",
-        "stylesheet": "shows/common/stylesheet.css",
-        "javascript": "shows/common/index.js"
-    }, {
-        "name": "Cedar Point Live Entertainment",
-        "path": "/gallery/cedar-point-live-entertainment",
-        "html": "shows/Cedar-Point-Live-Entertainment.html",
-        "stylesheet": "shows/common/stylesheet.css",
-        "javascript": "shows/common/index.js"
-    }, {
-        "name": "Mountain Language",
-        "path": "/gallery/mountain-language",
-        "html": "shows/Mountain-Language.html",
-        "stylesheet": "shows/common/stylesheet.css",
-        "javascript": "shows/common/index.js"
-    }, {
-        "name": "A Midsummer's Night Dream",
-        "path": "/gallery/a-midsummers-night-dream",
-        "html": "shows/A-Midsummers-Night-Dream.html",
-        "stylesheet": "shows/common/stylesheet.css",
-        "javascript": "shows/common/index.js"
-    }, {
-        "name": "Nostalgia Night",
-        "path": "/gallery/nostalgia-night",
-        "html": "shows/Nostalgia-Night.html",
-        "stylesheet": "shows/common/stylesheet.css",
-        "javascript": "shows/common/index.js"
-    }, {
-        "name": "The Wild Party",
-        "path": "/gallery/the-wild-party",
-        "html": "shows/The-Wild-Party.html",
-        "stylesheet": "shows/common/stylesheet.css",
-        "javascript": "shows/common/index.js"
-    },{
-        "name": "Indiethon",
-        "path": "/other-works/indiethon",
-        "html": "other-works/indiethon/indiethon.html",
-        "stylesheet": "other-works/indiethon/stylesheet.css",
-        "javascript": "other-works/indiethon/index.js"
-    }],
+    "pages": [
+        {
+            "name": "Home",
+            "path": "",
+            "html": "home/home.html",
+            "stylesheet": "home/home.css",
+            "javascript": "home/home.js"
+        },
+        {
+            "name": "Gallery",
+            "path": "/gallery",
+            "html": "gallery/gallery.html",
+            "stylesheet": "gallery/gallery.css",
+            "javascript": "gallery/gallery.js"
+        },
+        {
+            "name": "Resume",
+            "path": "/resume",
+            "html": "resume/resume.html",
+            "stylesheet": "resume/resume.css",
+            "javascript": "resume/resume.js"
+        },
+        {
+            "name": "Calendar",
+            "path": "/calendar",
+            "html": "calendar/calendar.html",
+            "stylesheet": "calendar/calendar.css",
+            "javascript": "calendar/calendar.js"
+        },
+        {
+            "name": "Contact",
+            "path": "/contact",
+            "html": "contact/contact.html",
+            "stylesheet": "contact/contact.css",
+            "javascript": "contact/contact.js"
+        },
+        {
+            "name": "Bernarda Alba",
+            "path": "/gallery/bernarda-alba",
+            "html": "shows/bernarda-alba.html",
+            "stylesheet": "shows/common/stylesheet.css",
+            "javascript": "shows/common/index.js"
+        },
+        {
+            "name": "Natasha, Pierre and The Great Comet of 1812",
+            "path": "/gallery/natasha-pierre-and-the-great-comet-of-1812",
+            "html": "shows/Great-Comet-of-1812.html",
+            "stylesheet": "shows/common/stylesheet.css",
+            "javascript": "shows/common/index.js"
+        },
+        {
+            "name": "Little Shop of Horrors",
+            "path": "/gallery/little-shop-of-horrors-ltsf",
+            "html": "shows/Little-Shop-LTSF.html",
+            "stylesheet": "shows/common/stylesheet.css",
+            "javascript": "shows/common/index.js"
+        },
+        {
+            "name": "Cinderella",
+            "path": "/gallery/cinderella",
+            "html": "shows/Cinderella-SLCT.html",
+            "stylesheet": "shows/common/stylesheet.css",
+            "javascript": "shows/common/index.js"
+        },
+        {
+            "name": "Cabaret of Many Colors",
+            "path": "/gallery/cabaret-of-many-colors",
+            "html": "shows/Cabaret-Of-Many-Colors.html",
+            "stylesheet": "shows/common/stylesheet.css",
+            "javascript": "shows/common/index.js"
+        },
+        {
+            "name": "Mars, Bringer of War",
+            "path": "/gallery/mars-bringer-of-war",
+            "html": "shows/Mars-Bringer-Of-War.html",
+            "stylesheet": "shows/common/stylesheet.css",
+            "javascript": "shows/common/index.js"
+        },
+        {
+            "name": "Into the Woods",
+            "path": "/gallery/into-the-woods-2020",
+            "html": "shows/Into-The-Woods-2020.html",
+            "stylesheet": "shows/common/stylesheet.css",
+            "javascript": "shows/common/index.js"
+        },
+        {
+            "name": "The Secret In The Wings",
+            "path": "/gallery/the-secret-in-the-wings",
+            "html": "shows/The-Secret-In-The-Wings.html",
+            "stylesheet": "shows/common/stylesheet.css",
+            "javascript": "shows/common/index.js"
+        },
+        {
+            "name": "Little Shop of Horrors",
+            "path": "/gallery/little-shop-of-horrors",
+            "html": "shows/Little-Shop-Of-Horrors.html",
+            "stylesheet": "shows/common/stylesheet.css",
+            "javascript": "shows/common/index.js"
+        },
+        {
+            "name": "Dialogues of the Carmelites",
+            "path": "/gallery/dialogues-of-the-carmelites",
+            "html": "shows/Dialogues-Of-The-Carmelites.html",
+            "stylesheet": "shows/common/stylesheet.css",
+            "javascript": "shows/common/index.js"
+        },
+        {
+            "name": "Metamorphoses",
+            "path": "/gallery/metamorphoses",
+            "html": "shows/Metamorphoses.html",
+            "stylesheet": "shows/common/stylesheet.css",
+            "javascript": "shows/common/index.js"
+        },
+        {
+            "name": "Cedar Point Live Entertainment",
+            "path": "/gallery/cedar-point-live-entertainment",
+            "html": "shows/Cedar-Point-Live-Entertainment.html",
+            "stylesheet": "shows/common/stylesheet.css",
+            "javascript": "shows/common/index.js"
+        },
+        {
+            "name": "Mountain Language",
+            "path": "/gallery/mountain-language",
+            "html": "shows/Mountain-Language.html",
+            "stylesheet": "shows/common/stylesheet.css",
+            "javascript": "shows/common/index.js"
+        },
+        {
+            "name": "A Midsummer's Night Dream",
+            "path": "/gallery/a-midsummers-night-dream",
+            "html": "shows/A-Midsummers-Night-Dream.html",
+            "stylesheet": "shows/common/stylesheet.css",
+            "javascript": "shows/common/index.js"
+        },
+        {
+            "name": "Nostalgia Night",
+            "path": "/gallery/nostalgia-night",
+            "html": "shows/Nostalgia-Night.html",
+            "stylesheet": "shows/common/stylesheet.css",
+            "javascript": "shows/common/index.js"
+        },
+        {
+            "name": "The Wild Party",
+            "path": "/gallery/the-wild-party",
+            "html": "shows/The-Wild-Party.html",
+            "stylesheet": "shows/common/stylesheet.css",
+            "javascript": "shows/common/index.js"
+        },
+        {
+            "name": "Indiethon",
+            "path": "/other-works/indiethon",
+            "html": "other-works/indiethon/indiethon.html",
+            "stylesheet": "other-works/indiethon/stylesheet.css",
+            "javascript": "other-works/indiethon/index.js"
+        }
+    ],
     "carouselImgs": [
+        "assets/gallery/Bernarda Alba/cover.png",
+        "assets/gallery/Cinderella%20SLCT/IMG_3119.JPG",
+        "assets/gallery/Dialogues%20of%20the%20Carmelites/f158b0b86dfe94f6cada7fd1cc9d54b3.jpg",
+        "assets/gallery/Natasha%20Pierre%20and%20The%20Great%20Comet%20of%201812/DSC_0365.JPG",
         "assets/home/carousel/1.jpg",
         "assets/home/carousel/2.jpg",
         "assets/gallery/Dialogues of the Carmelites/cover.jpg",
@@ -139,104 +169,148 @@
     ],
     "gallery": [
         {
-            "title": "Lighting Design",
-            "content": [
-                {
-                    "name": "Cinderella",
-                    "image": "/assets/gallery/Cinderella%20SLCT/IMG_3301.JPG",
-                    "url": "/gallery/cinderella"
-                },
-                {
-                    "name": "Cabaret of Many Colors",
-                    "image": "/assets/gallery/Cabaret%20of%20Many%20Colors/cover.jpg",
-                    "url": "/gallery/cabaret-of-many-colors"
-                },
-                {
-                    "name": "Mars, Bringer of War",
-                    "image": "/assets/gallery/Mars%20Bringer%20Of%20War/cover.jpg",
-                    "url": "/gallery/mars-bringer-of-war"
-                },
-                {
-                    "name": "Into the Woods (2020)",
-                    "image": "/assets/gallery/Into%20the%20Woods%202020/cover.jpg",
-                    "url": "/gallery/into-the-woods-2020"
-                },
-                {
-                    "name": "The Secret In The Wings",
-                    "image": "/assets/gallery/The%20Secret%20In%20The%20Wings/cover.jpg",
-                    "url": "/gallery/the-secret-in-the-wings"
-                },
-                {
-                    "name": "Little Shop of Horrors",
-                    "image": "/assets/gallery/Little%20Shop%20Of%20Horrors/cover.jpg",
-                    "url": "/gallery/little-shop-of-horrors"
-                }
-            ]
+            "name": "Cinderella",
+            "role": "Lighting Designer",
+            "group": "Design (Lighting)",
+            "date": "05-01-2023",
+            "image": "/assets/gallery/Cinderella%20SLCT/IMG_3301.JPG",
+            "url": "/gallery/cinderella"
         },
         {
-            "title": "Master Electrician",
-            "content": [
-                {
-                    "name": "Little Shop of Horrors",
-                    "image": "/assets/gallery/Little Shop LTSF/DSC_0181.jpeg",
-                    "url": "/gallery/little-shop-of-horrors-ltsf"
-                },
-                {
-                    "name": "Dialogues of the Carmelites",
-                    "image": "/assets/gallery/Dialogues%20of%20the%20Carmelites/cover.jpg",
-                    "url": "/gallery/dialogues-of-the-carmelites"
-                },
-                {
-                    "name": "Metamorphoses",
-                    "image": "/assets/gallery/Metamorphoses/cover.jpg",
-                    "url": "/gallery/metamorphoses"
-                },
-                {
-                    "name": "Cedar Point Live Entertainment",
-                    "image": "/assets/gallery/Cedar%20Point%20Live%20Entertainment/cover.jpg",
-                    "url": "/gallery/cedar-point-live-entertainment"
-                },
-                {
-                    "name": "Mountain Language",
-                    "image": "/assets/gallery/Mountain%20Language/cover.jpg",
-                    "url": "/gallery/mountain-language"
-                }
-            ]
+            "name": "Cabaret of Many Colors",
+            "role": "Lighting Designer",
+            "group": "Design (Lighting)",
+            "date": "04-01-2023",
+            "image": "/assets/gallery/Cabaret%20of%20Many%20Colors/cover.jpg",
+            "url": "/gallery/cabaret-of-many-colors"
         },
         {
-            "title": "Other",
-            "content": [
-                {
-                    "name": "Natasha, Pierre and The Great Comet of 1812",
-                    "image": "/assets/gallery/Natasha%20Pierre%20and%20The%20Great%20Comet%20of%201812/DSC_0058.JPG",
-                    "url": "/gallery/natasha-pierre-and-the-great-comet-of-1812"
-                },
-                {
-                    "name": "A Midsummer's Night Dream",
-                    "image": "/assets/gallery/A%20Midsummers%20Night%20Dream/cover.jpg",
-                    "url": "/gallery/a-midsummers-night-dream"
-                },
-                {
-                    "name": "Nostalgia Night",
-                    "image": "/assets/gallery/Nostalgia%20Night/cover.jpg",
-                    "url": "/gallery/nostalgia-night"
-                },
-                {
-                    "name": "The Wild Party",
-                    "image": "/assets/gallery/The%20Wild%20Party/cover.jpg",
-                    "url": "/gallery/the-wild-party"
-                }
-            ]
+            "name": "Mars, Bringer of War",
+            "role": "Lighting Designer",
+            "group": "Design (Lighting)",
+            "date": "04-01-2023",
+            "image": "/assets/gallery/Mars%20Bringer%20Of%20War/cover.jpg",
+            "url": "/gallery/mars-bringer-of-war"
+        },
+        {
+            "name": "Into the Woods (2020)",
+            "role": "Lighting Designer",
+            "group": "Design (Lighting)",
+            "date": "05-01-2020",
+            "image": "/assets/gallery/Into%20the%20Woods%202020/cover.jpg",
+            "url": "/gallery/into-the-woods-2020"
+        },
+        {
+            "name": "The Secret In The Wings",
+            "role": "Lighting Designer",
+            "group": "Design (Lighting)",
+            "date": "11-01-2019",
+            "image": "/assets/gallery/The%20Secret%20In%20The%20Wings/cover.jpg",
+            "url": "/gallery/the-secret-in-the-wings"
+        },
+        {
+            "name": "Little Shop of Horrors",
+            "role": "Lighting Designer",
+            "group": "Design (Lighting)",
+            "date": "05-01-2019",
+            "image": "/assets/gallery/Little%20Shop%20Of%20Horrors/cover.jpg",
+            "url": "/gallery/little-shop-of-horrors"
+        },
+        {
+            "name": "Little Shop of Horrors",
+            "role": "Electrics Supervisor",
+            "group": "Technical (Lighting)",
+            "date": "06-01-2023",
+            "image": "/assets/gallery/Little Shop LTSF/DSC_0181.jpeg",
+            "url": "/gallery/little-shop-of-horrors-ltsf"
+        },
+        {
+            "name": "Dialogues of the Carmelites",
+            "role": "Production Electrician",
+            "group": "Technical (Lighting)",
+            "date": "03-01-2023",
+            "image": "/assets/gallery/Dialogues%20of%20the%20Carmelites/cover.jpg",
+            "url": "/gallery/dialogues-of-the-carmelites"
+        },
+        {
+            "name": "Metamorphoses",
+            "role": "Production Electrician",
+            "group": "Technical (Lighting)",
+            "date": "09-01-2022",
+            "image": "/assets/gallery/Metamorphoses/cover.jpg",
+            "url": "/gallery/metamorphoses"
+        },
+        {
+            "name": "Cedar Point Live Entertainment",
+            "role": "Desk Electrician",
+            "group": "Technical (Lighting)",
+            "date": "06-01-2022",
+            "image": "/assets/gallery/Cedar%20Point%20Live%20Entertainment/cover.jpg",
+            "url": "/gallery/cedar-point-live-entertainment"
+        },
+        {
+            "name": "Mountain Language",
+            "role": "Production Electrician",
+            "group": "Technical (Lighting)",
+            "date": "04-01-2022",
+            "image": "/assets/gallery/Mountain%20Language/cover.jpg",
+            "url": "/gallery/mountain-language"
+        },
+        {
+            "name": "Natasha, Pierre and The Great Comet of 1812",
+            "role": "Assistant Lighting Designer",
+            "group": "Design (Lighting)",
+            "date": "10-01-2023",
+            "image": "/assets/gallery/Natasha%20Pierre%20and%20The%20Great%20Comet%20of%201812/DSC_0058.JPG",
+            "url": "/gallery/natasha-pierre-and-the-great-comet-of-1812"
+        },
+        {
+            "name": "A Midsummer's Night Dream",
+            "role": "Electrician",
+            "group": "General Tech",
+            "date": "11-01-2021",
+            "image": "/assets/gallery/A%20Midsummers%20Night%20Dream/cover.jpg",
+            "url": "/gallery/a-midsummers-night-dream"
+        },
+        {
+            "name": "Nostalgia Night",
+            "role": "Electrician",
+            "group": "General Tech",
+            "date": "02-01-2022",
+            "image": "/assets/gallery/Nostalgia%20Night/cover.jpg",
+            "url": "/gallery/nostalgia-night"
+        },
+        {
+            "name": "The Wild Party",
+            "role": "Electrician",
+            "group": "General Tech",
+            "date": "10-01-2021",
+            "image": "/assets/gallery/The%20Wild%20Party/cover.jpg",
+            "url": "/gallery/the-wild-party"
+        },
+        {
+            "name": "Bernarda Alba",
+            "role": "Lighing Designer",
+            "group": "Design (Lighting)",
+            "date": "04-01-2024",
+            "image": "/assets/gallery/Bernarda%20Alba/cover.png",
+            "url": "/gallery/bernarda-alba"
         }
     ],
-    "resumes": [{
-        "title": "Lighting",
-        "path": "/assets/resumes/Nicolas_Baror_Resume_Lighting.pdf"
-    },
-    {
-        "title": "Scenic",
-        "path": "/assets/resumes/Nicolas_Baror_Resume_Scenic.pdf"
-    }],
+    "resumes": [
+        {
+            "title": "General",
+            "path": "/assets/resumes/Nicolas_Baror_Resume.pdf"
+        },
+        {
+            "title": "Lighting",
+            "path": "/assets/resumes/Nicolas_Baror_Resume_Lighting.pdf"
+        },
+        {
+            "title": "Scenic",
+            "path": "/assets/resumes/Nicolas_Baror_Resume_Scenic.pdf"
+        }
+    ],
     "calendars": [
         "https://calendar.google.com/calendar/ical/nicnacnicyt%40gmail.com/public/basic.ics",
         "https://calendar.google.com/calendar/ical/bcbft26t4ou0dm7rjmhfv6ssik%40group.calendar.google.com/public/basic.ics",
