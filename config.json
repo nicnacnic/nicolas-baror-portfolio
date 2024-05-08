@@ -38,7 +38,7 @@
         {
             "name": "Bernarda Alba",
             "path": "/gallery/bernarda-alba",
-            "html": "shows/bernarda-alba.html",
+            "html": "shows/Bernarda-Alba.html",
             "stylesheet": "shows/common/stylesheet.css",
             "javascript": "shows/common/index.js"
         },
