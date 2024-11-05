@@ -36,6 +36,13 @@
             "javascript": "contact/contact.js"
         },
         {
+            "name": "Seussical",
+            "path": "/gallery/seussical",
+            "html": "shows/Seussical-SLCT.html",
+            "stylesheet": "shows/common/stylesheet.css",
+            "javascript": "shows/common/index.js"
+        },
+        {
             "name": "Bernarda Alba",
             "path": "/gallery/bernarda-alba",
             "html": "shows/Bernarda-Alba.html",
@@ -168,6 +175,14 @@
         "assets/gallery/The Wild Party/cover.jpg"
     ],
     "gallery": [
+        {
+            "name": "Seussical",
+            "role": "Lighting Designer",
+            "group": "Design (Lighting)",
+            "date": "06-01-2024",
+            "image": "/assets/gallery/Seussical%20SLCT/IMG_3301.JPG",
+            "url": "/gallery/seussical"
+        },
         {
             "name": "Cinderella",
             "role": "Lighting Designer",
