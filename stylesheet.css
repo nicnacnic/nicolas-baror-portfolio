@@ -164,15 +164,18 @@ h5 {
 }
 
 .image-expand-container.visible .image-expand-back-arrow {
-    pointer-events: all
+    pointer-events: all;
+    cursor: pointer;
 }
 
 .image-expand-container.visible .image-expand-next-arrow {
-    pointer-events: all
+    pointer-events: all;
+    cursor: pointer;
 }
 
 .image-expand-container.visible .image-expand-close {
-    pointer-events: all
+    pointer-events: all;
+    cursor: pointer;
 }
 
 .image-expand-back-arrow {

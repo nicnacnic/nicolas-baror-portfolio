@@ -96,6 +96,7 @@ header h1 {
     object-fit: contain;
     max-width: 100%;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .button-text {
