@@ -49,6 +49,15 @@
       </svg>
     </div>
   </div>
+  <div class="image-expand-container">
+    <div class="image-expand-background"></div>
+    <div class="image-expand-back-arrow" onClick="lastImage(this)">&lt;</div>
+    <div class="image-expand-image-container"  onClick="document.querySelector('.image-expand-container').classList.remove('visible')">
+      <img class="image-expand-image">
+    </div>
+    <div class="image-expand-next-arrow" onClick="nextImage(this)">&gt;</div>
+    <div class="image-expand-close" onClick="document.querySelector('.image-expand-container').classList.remove('visible')">X</div>
+  </div>
   <header>
     <div class="navbar-container">
       <div class="navbar-logo">

@@ -162,27 +162,7 @@
             "javascript": "other-works/indiethon/index.js"
         }
     ],
-    "carouselImgs": [
-        "assets/gallery/Bernarda Alba/cover.png",
-        "assets/gallery/Cinderella%20SLCT/IMG_3119.JPG",
-        "assets/gallery/Dialogues%20of%20the%20Carmelites/f158b0b86dfe94f6cada7fd1cc9d54b3.jpg",
-        "assets/gallery/Natasha%20Pierre%20and%20The%20Great%20Comet%20of%201812/DSC_0365.JPG",
-        "assets/home/carousel/1.jpg",
-        "assets/home/carousel/2.jpg",
-        "assets/gallery/Dialogues of the Carmelites/cover.jpg",
-        "assets/gallery/The Secret In The Wings/cover.jpg",
-        "assets/gallery/Nostalgia Night/cover.jpg",
-        "assets/gallery/The Wild Party/cover.jpg"
-    ],
     "gallery": [
-        {
-            "name": "Seussical",
-            "role": "Lighting Designer",
-            "group": "Design (Lighting)",
-            "date": "06-01-2024",
-            "image": "/assets/gallery/Seussical%20SLCT/IMG_3301.JPG",
-            "url": "/gallery/seussical"
-        },
         {
             "name": "Cinderella",
             "role": "Lighting Designer",

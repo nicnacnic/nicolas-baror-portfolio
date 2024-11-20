@@ -76,6 +76,131 @@ h5 {
     overflow: hidden;
 }
 
+.image-expand-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 997;
+    opacity: 0;
+    pointer-events: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.image-expand-background {
+    position: fixed;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #262626;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 1s;
+    z-index: 998;
+    pointer-events: none;
+}
+
+
+.image-expand-image-container {
+    pointer-events: none;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 1s;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    max-width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+}
+
+.image-expand-image {
+    box-sizing: border-box;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.image-expand-close {
+    position: fixed;
+    pointer-events: none;
+    top: 0;
+    right: 32px;
+    font-size: 48px;
+    color: #c5c5c5;
+    z-index: 1000;
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+.image-expand-container.visible .image-expand-background {
+    opacity: 0.92;
+    pointer-events: none;
+    transition-duration: 1s;
+}
+
+.image-expand-container.visible .image-expand-image-container {
+    opacity: 1;
+    pointer-events: all;
+    transition-duration: 1s;
+}
+
+.image-expand-container.visible {
+    opacity: 1;
+    transition-duration: 1s;
+    pointer-events: none;
+}
+
+.image-expand-container.visible .image-expand-back-arrow {
+    pointer-events: all
+}
+
+.image-expand-container.visible .image-expand-next-arrow {
+    pointer-events: all
+}
+
+.image-expand-container.visible .image-expand-close {
+    pointer-events: all
+}
+
+.image-expand-back-arrow {
+    font-size: 48px;
+    color: #c5c5c5;
+    padding-left: 32px;
+    z-index: 999;
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-weight: bold;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+}
+
+.image-expand-next-arrow {
+    font-size: 48px;
+    color: #c5c5c5;
+    padding-right: 32px;
+    z-index: 999;
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-weight: bold;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+}
+
 .navbar-container {
     background-color: #262626;
     position: fixed;
@@ -473,6 +598,7 @@ footer a:hover {
         gap: 10px;
         padding: 10px 16px;
     }
+
     .navbar-menu a {
         display: block;
         width: 100%;

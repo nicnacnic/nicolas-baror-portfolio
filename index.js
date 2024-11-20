@@ -75,11 +75,14 @@ const router = async () => {
     if (script) script.setAttribute('route', '')
     document.querySelector('.page-container').scrollTo(0, 0);
     document.querySelector('main').scrollTo(0, 0);
-    document.querySelector('.fader').classList.remove('visible');
     try {
         await load(config)
     } catch { }
-    setTimeout(() => { try { visible(config) } catch { } }, 1000);
+
+    setTimeout(() => { try { 
+        document.querySelector('.fader').classList.remove('visible');
+        visible(config)
+    } catch { } }, 500);
     loading = false;
 }
 
