@@ -1,6 +1,6 @@
 async function load(config) {
 
-    iframeStr = `https://open-web-calendar.hosted.quelltext.eu/calendar.html?specification_url=${window.location.host + '/calendar-config.json'}`
+    iframeStr = `https://open-web-calendar.hosted.quelltext.eu/calendar.html?specification_url=${window.location.protocol + '//' + window.location.host + '/calendar-config.json'}`
     console.log(iframeStr)
   
     document.querySelector('.calendar-section').innerHTML += 
