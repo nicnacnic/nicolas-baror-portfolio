@@ -1,0 +1,14 @@
+{
+    "css": ".CALENDAR-INDEX-0, .CALENDAR-INDEX-0 .dhx_body, .CALENDAR-INDEX-0 .dhx_title  { background-color: #e13500; } \n.CALENDAR-INDEX-1, .CALENDAR-INDEX-1 .dhx_body, .CALENDAR-INDEX-1 .dhx_title  { background-color: #429a8e; } \n.CALENDAR-INDEX-2, .CALENDAR-INDEX-2 .dhx_body, .CALENDAR-INDEX-2 .dhx_title  { background-color: #a75aba; } \n.CALENDAR-INDEX-3, .CALENDAR-INDEX-3 .dhx_body, .CALENDAR-INDEX-3 .dhx_title  { background-color: #429a8e; } \n.CALENDAR-INDEX-4, .CALENDAR-INDEX-4 .dhx_body, .CALENDAR-INDEX-4 .dhx_title  { background-color: #429a8e; } \n",
+    "hour_format": "%g:%i %a",
+    "tab": "week",
+    "target": "_blank",
+    "title": "Nicolas Baror Calendar",
+    "url": [
+      "https://calendar.google.com/calendar/ical/nicnacnicyt%40gmail.com/public/basic.ics",
+      "https://calendar.google.com/calendar/ical/bcbft26t4ou0dm7rjmhfv6ssik%40group.calendar.google.com/public/basic.ics",
+      "https://calendar.google.com/calendar/ical/1p6s5gtqc4dm6bqvjjgm7mucp0%40group.calendar.google.com/public/basic.ics",
+      "https://calendar.google.com/calendar/ical/7qh4ip40sju27lahhebtfi0ftc%40group.calendar.google.com/public/basic.ics",
+      "https://calendar.google.com/calendar/ical/e55d2bc9029bb79ad035fb10a475f91c4ada55a2ba9ab476de853a2c76d4a245%40group.calendar.google.com/public/basic.ics"
+    ]
+  }

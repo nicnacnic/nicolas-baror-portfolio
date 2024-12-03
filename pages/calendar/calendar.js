@@ -1,10 +1,8 @@
 async function load(config) {
-    let iframeStr = 'https://open-web-calendar.hosted.quelltext.eu/calendar.html?url=';
-    let newArray = [];
-    config.calendars.forEach(calendar => {
-        newArray.push(encodeURIComponent(calendar))
-    })
-    iframeStr += newArray.join('&amp;url=') + '&amp;title=Nicolas%20Baror%20Calendar&amp;skin=dhtmlxscheduler.css&amp;tab=week';
+
+    iframeStr = `https://open-web-calendar.hosted.quelltext.eu/calendar.html?specification_url=${window.location.host + '/calendar-config.json'}`
+    console.log(iframeStr)
+  
     document.querySelector('.calendar-section').innerHTML += 
         `    <iframe id="open-web-calendar" 
         style="background:url('https://raw.githubusercontent.com/niccokunzmann/open-web-calendar/master/static/img/loaders/circular-loader.gif') center center no-repeat;"

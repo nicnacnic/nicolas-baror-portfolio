@@ -307,10 +307,29 @@
         }
     ],
     "calendars": [
-        "https://calendar.google.com/calendar/ical/nicnacnicyt%40gmail.com/public/basic.ics",
-        "https://calendar.google.com/calendar/ical/bcbft26t4ou0dm7rjmhfv6ssik%40group.calendar.google.com/public/basic.ics",
-        "https://calendar.google.com/calendar/ical/1p6s5gtqc4dm6bqvjjgm7mucp0%40group.calendar.google.com/public/basic.ics",
-        "https://calendar.google.com/calendar/ical/7qh4ip40sju27lahhebtfi0ftc%40group.calendar.google.com/public/basic.ics",
-        "https://calendar.google.com/calendar/ical/e55d2bc9029bb79ad035fb10a475f91c4ada55a2ba9ab476de853a2c76d4a245%40group.calendar.google.com/public/basic.ics"
+        {
+            "name": "nicnacnicyt@gmail.com",
+            "url": "https://calendar.google.com/calendar/ical/nicnacnicyt%40gmail.com/public/basic.ics",
+            "color": "4e2e8f"
+        },
+        {
+            "name": "unknown",
+            "url": "https://calendar.google.com/calendar/ical/bcbft26t4ou0dm7rjmhfv6ssik%40group.calendar.google.com/public/basic.ics",
+            "color": "0582c8"
+        },{
+            "name": "School",
+            "url": "https://calendar.google.com/calendar/ical/1p6s5gtqc4dm6bqvjjgm7mucp0%40group.calendar.google.com/public/basic.ics",
+            "color": "f60002"
+        },
+        {
+            "name": "unknown",
+            "url": "https://calendar.google.com/calendar/ical/7qh4ip40sju27lahhebtfi0ftc%40group.calendar.google.com/public/basic.ics",
+            "color": "0582c8"
+        },
+        {
+            "name": "Schwab Work",
+            "url": "https://calendar.google.com/calendar/ical/e55d2bc9029bb79ad035fb10a475f91c4ada55a2ba9ab476de853a2c76d4a245%40group.calendar.google.com/public/basic.ics",
+            "color": "0582c8"
+        }
     ]
 }
